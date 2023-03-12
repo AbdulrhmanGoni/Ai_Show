@@ -15,15 +15,15 @@ function SocialBar() {
                     </a>
                 </div>
                 <div className="d-flex gap-3">
-                    <a target="_blank" rel="noreferrer" href="https://instagram.com/ai_showoo?igshid=YmMyMTA2M2Y=">
-                        <i className="fa-brands fa-instagram"></i>
-                        
-                    </a>
                     <a target="_blank" rel="noreferrer" href="https://t.me/aishowo">
                         <i className="fa-brands fa-telegram"></i>
                     </a>
                     <a target="_blank" rel="noreferrer" href="https://youtube.com/@AiSHOWoo">
                         <i className="fa-brands fa-youtube"></i>
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://instagram.com/ai_showoo?igshid=YmMyMTA2M2Y=">
+                        <i className="fa-brands fa-instagram"></i>
+                        
                     </a>
                     <a target="_blank" rel="noreferrer" href="https://twitter.com/ai_showoo?s=21&t=xog5PN7FHmxkO1bk7WO7fw">
                         <i className="fa-brands fa-twitter"></i>
