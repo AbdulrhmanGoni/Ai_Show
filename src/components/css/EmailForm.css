@@ -1,0 +1,7 @@
+#submitBtn {
+    transition: .3s;
+}
+
+#submitBtn:hover {
+    background-color: var(--main-color);
+}

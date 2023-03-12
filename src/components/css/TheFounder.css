@@ -1,0 +1,70 @@
+#theFounder {
+    padding: var(--sectionsSpaces);
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 500px) {
+    .founderSec::before {
+        position: absolute;
+        content: "";
+        width: 260px;
+        height: 260px;
+        background-color: var(--main-color);
+        left: 0;
+        top: 0;
+        border-radius: 50%;
+        z-index: -1;
+        transform: translateX(-50%);
+    }
+
+    .founderSec::after {
+        position: absolute;
+        content: "";
+        width: 240px;
+        height: 240px;
+        background-color: transparent;
+        right: 0;
+        bottom: 0;
+        border: solid 20px var(--main-color);
+        border-radius: 50%;
+        z-index: -1;
+        transform: translateX(50%);
+    }
+}
+
+.theFounder {
+    padding: var(--sectionsSpaces);
+    gap: 50px;
+}
+
+.theFounder>* {
+    flex-basis: 50%;
+}
+
+.theFounder .founderImage {
+    max-width: 300px;
+}
+
+.theFounder .imageOverlay {
+    position: absolute;
+    top: 140px;
+    width: 500px;
+    opacity: .05;
+    z-index: -1;
+}
+
+.theFounder>div {
+    max-width: 400px;
+}
+
+.hesSocial>a {
+    width: 45px;
+    height: 45px;
+    transition: 0.4s;
+    background-color: var(--sub-color);
+}
+
+.hesSocial>a:hover {
+    background-color: var(--main-color);
+}

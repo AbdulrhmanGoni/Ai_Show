@@ -1,0 +1,20 @@
+.socialBar {
+    transition: 0.2s;
+    height: 56px;
+}
+
+.socialBar i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialBar * {
+    color: white;
+    transition: 0.3s;
+}
+
+.socialBar *:hover {
+    color: var(--sub-color);
+}
+

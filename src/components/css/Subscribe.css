@@ -1,0 +1,44 @@
+.subscripe>.decoratorDiv::before {
+    position: absolute;
+    content: "";
+    width: 230px;
+    height: 230px;
+    background-color: var(--main-color);
+    left: 0px;
+    bottom: -115px;
+    border-radius: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+}
+
+.subscripe>.decoratorDiv::after {
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    right: 0px;
+    top: -100px;
+    border: solid 20px var(--main-color);
+    border-radius: 50%;
+    z-index: -1;
+    transform: translateX(50%);
+}
+
+.subscripe picture>img {
+    min-height: 110px;
+}
+
+.subscripe img.channelLogo {
+    max-width: 160px;
+    border: 4px solid var(--main-color);
+}
+
+.subscripeBtn {
+    transition: 0.3s;
+    color: white !important;
+}
+
+.subscripeBtn:hover {
+    background-color: var(--main-color);
+}

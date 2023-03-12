@@ -1,0 +1,57 @@
+.homePage {
+    height: calc(100vh - 140px);
+    transition: 0.1s;
+    margin-top: 140px;
+    z-index: 1;
+    position: relative;
+}
+
+/* .homePage::before {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 0px;
+    height: 0px;
+    border-width: 120px 300px;
+    border-style: solid;
+    border-color: transparent var(--main-color) var(--main-color) transparent;
+} */
+
+/* .homePage::after {
+    content: "Ai Show Team Member";
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    left: 15px;
+    bottom: 15px;
+    font-size: 25px;
+}
+
+@media (min-width: 992px) {
+    .homePage::after {
+        left: 30px;
+        bottom: 30px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .homePage::after {
+        left: 30px;
+        bottom: 30px;
+        font-size: 30px;
+    }
+    .homePage svg {
+        transform: scaleY(1.5);
+        transform-origin: bottom;
+    }
+} */
+
+.changeBg {
+    transition: 0.3s;
+}
+
+.changeBg:hover {
+    color: var(--main-color) !important;
+}

@@ -1,0 +1,28 @@
+.loadingBar {
+    position: relative;
+    width: 120px;
+    height: 20px;
+    background-color: var(--main-color);
+    overflow: hidden;
+    /* ============================= { shorthand of animation properties } ============================= */
+    /* animation: [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode]; */
+}
+.loadingBar > span.animate {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( 90deg, var(--main-color), var(--sub-color), var(--main-color));
+
+    animation: loadingBar .7s linear 0s infinite running;
+    /* ============================= { shorthand of animation properties } ============================= */
+    /* animation: [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode]; */
+}
+
+@keyframes loadingBar {
+    from {
+        left: -120px;
+    }
+    to {
+        left: 120px;
+    }
+}

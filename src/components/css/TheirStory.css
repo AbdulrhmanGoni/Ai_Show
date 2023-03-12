@@ -1,0 +1,27 @@
+.theirStory {
+    background-color: var(--bg-color2);
+    padding: var(--sectionsSpaces);
+}
+
+@media (max-width: 991px) {
+    .imgAiShow {
+        background-image: none !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .imgAiShow {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media (min-width: 768px) {
+    .successes {
+        width: calc(75% - 10px) !important;
+    }
+}
+@media (min-width: 768px) {
+    .Founded {
+        width: calc(25% - 10px) !important;
+    }
+}

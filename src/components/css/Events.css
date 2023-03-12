@@ -1,0 +1,51 @@
+.events {
+    padding: var(--sectionsSpaces);
+    background-color: var(--bg-color2);
+}
+
+.anEvent {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.linkEvents a,
+.linkEvents {
+    transition: .4s;
+}
+
+.linkEvents:hover a {
+    opacity: 1 !important;
+}
+.linkEvents a {
+    text-decoration: underline;
+}
+.linkEvents a:hover {
+    color: var(--main-color) !important;
+}
+
+span.linkEvents:hover {
+    background-color: #00000045;
+}
+
+.preEvent .prevImg {
+    width: 180px;
+    height: 115px;
+}
+
+.preEventDiscription {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.max-lines {
+    display: block;
+    /* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+}

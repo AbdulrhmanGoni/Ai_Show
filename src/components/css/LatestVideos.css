@@ -1,0 +1,75 @@
+#latestVideos {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 400px));
+    gap: 20px;
+    font-family: "Noto Naskh Arabic", serif;
+    padding: var(--sectionsSpaces);
+}
+
+@media (min-width: 992px) {
+    .thumbnail {
+        height: 240px !important;
+    }
+}
+
+.overlayLink {
+    transition: .3s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.overlayLink > a:hover {
+    transition: .3s;
+    color: var(--main-color) !important;
+    text-decoration: underline;
+}
+
+.overlayLink:hover {
+    opacity: 1 !important;
+}
+
+.views_liks_comments_date span {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color2);
+    gap: 5px;
+}
+
+.views_liks_comments_date i {
+    color: var(--main-color);
+}
+
+.title_discription>.timeAgo,
+.title_discription>.duration {
+    position: absolute;
+    padding: 6px 3px 3px 3px;
+    top: -40px;
+    color: white;
+    background-color: #0000008b;
+}
+
+.title_discription>.timeAgo {
+    left: 10px;
+    font-size: 15px;
+}
+
+.title_discription>.duration {
+    right: 10px;
+    font-size: 15px;
+}
+
+.theChannel img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: solid var(--main-color) 2px;
+}
+
+#goToWatchBtn:hover {
+    background-color: var(--main-color);
+}
+
+.reFetchBtn {
+    cursor: pointer;
+}

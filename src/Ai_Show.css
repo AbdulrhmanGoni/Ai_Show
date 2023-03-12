@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+/* --bg-color2: #ffaf001c; */
+:root {
+    --main-color: #ffaf00;
+    --sub-color: #9a6900;
+
+    --bg-main-color: #ffaf00;
+    --bg-sub-color: #9a6900;
+    --bg-color1: black;
+    --bg-color2: #1b1a18;
+
+    --text-color1: #8f733d;
+    --text-color2: white;
+
+    --sectionsSpaces: 50px 0px;
+}
+:root {
+/*     
+    --bg-color1: white;
+    --bg-color2: #fff6e2;
+
+    --text-color1: #9b6b00;
+    --text-color2: black; 
+    */
+}
+
+::selection {
+    background-color: var(--main-color);
+    color: var(--bg-color1);
+}
+
+::-webkit-scrollbar {
+    background-color: var(--bg-color1);
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--text-color2);
+}
+
+a {
+    color: var(--text_color2);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+i {
+    color: white;
+}
+
+p, h1, h2, h3, h4, h5, h6, span, div {
+    color: var(--text-color2)
+}
+
+img {
+    user-select: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: var(--text-color2);
+}
+
+input,
+textarea {
+    color: var(--text_color2);
+    border: none;
+}
+
+:is(input, textarea):focus {
+    outline: none;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+/* .sub-color {
+    color: var(--sub-color);
+} */
+
+.bg-color1 {
+    background-color: var(--bg-color1);
+}
+.bg-color2 {
+    background-color: var(--bg-color2);
+}
+.bg-main-color {
+    background-color: var(--bg-main-color);
+}
+.bg-sub-color {
+    background-color: var(--bg-sub-color);
+}
+
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.499);
+}
+
+.text-color1 {
+    color: var(--text-color1);
+}
+.text-color2 {
+    color: var(--text-color2);
+}
+
+.radius-1 {
+    border-radius: 10px;
+}
+
+.radius-2 {
+    border-radius: 15px;
+}
+
+.radius-3 {
+    border-radius: 20px;
+}
+
+.bxSh {
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+
+.borderTrickSub {
+    border: solid;
+    border-width: 0px 0px 3px 3px;
+    border-color: var(--sub-color) !important;
+}
+
+.borderTrickMain {
+    border: solid;
+    border-width: 0px 0px 3px 3px;
+    border-color: var(--main-color) !important;
+}
+
+.title-section>p {
+    position: relative;
+}
+
+.title-section>p::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 200px;
+    height: 2px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,38 @@
+#introdution {
+    padding: var(--sectionsSpaces);
+    background-color: var(--bg-color2);
+}
+
+.brief .imgContainer {
+    height: 200px;
+}
+
+.brief .imgContainer>img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.brief {
+    justify-items: center;
+}
+
+.brief .aContent {
+    transition: 0.5s;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--bg-color1);
+    height: 100%;
+}
+
+.brief .aContent:hover {
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 8px;
+}
+
+.brief .aContent>.liveStream {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: var(--main-color);
+    width: 50px;
+    height: 50px;
+}

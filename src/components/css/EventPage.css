@@ -1,0 +1,7 @@
+.thePage {
+    min-height: 100vh;
+}
+
+.backBtn:hover {
+    background-color: var(--sub-color);
+}
