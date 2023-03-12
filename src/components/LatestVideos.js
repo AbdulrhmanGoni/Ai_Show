@@ -18,7 +18,7 @@ const LatestVideos = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        // dispatch(getLatestVideos());
+        dispatch(getLatestVideos());
     }, [])
 
     let theVideos = [<LoadingBar key="loadingBar" massege="Fetching Videos Data" />]
