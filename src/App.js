@@ -1,4 +1,3 @@
-// import axios from "axios";
 import dataCenter from "./data_center/dataCenter";
 import { Provider } from "react-redux";
 import { homePageBgs, theirStory, FounderData, theEvents } from "./Ai_Show_Data.js";

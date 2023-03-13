@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# Ai Show
 
-This is my first project with react.js
+In This Website I Will Display Some Information About Ai Show Channel And His Members
