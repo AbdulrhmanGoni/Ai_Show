@@ -4,6 +4,7 @@
     justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(265px, 400px));
     gap: 20px;
+    padding: 15px;
     font-family: "Noto Naskh Arabic", serif;
     padding: var(--sectionsSpaces);
 }

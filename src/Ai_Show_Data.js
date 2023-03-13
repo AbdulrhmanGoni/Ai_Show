@@ -3,7 +3,7 @@
 let homePageBgs = [
     require("./images/Ai-Show-Team-1.jpg"),
     require("./images/Ai-Show-Team-2.png"),
-    require("./images/Ai-Show-Team-3.jfif")
+    require("./images/Ai-Show-Team-3.jpg")
 
 ]
 
@@ -69,7 +69,7 @@ let FounderData = {
 let theEvents = [
     {
         title: "Anime Town",
-        image: require("./images/event1.jfif"),
+        image: require("./images/event1.jpg"),
         discription: "Anime Town dolor sit, amet porro officia dicta in provident, quaerat, nam eius nulla. Ullam, vero commodi?",
         date: "2023/2/10",
         state: "On Live Now",
@@ -81,7 +81,7 @@ let theEvents = [
     },
     {
         title: "Anime Expo",
-        image: require("./images/event3.jfif"),
+        image: require("./images/event3.jpg"),
         discription: "Anime Expo its ceremony's Anime & cosplay nam eius nulla. Ullam, vero  commodi?",
         date: "2022/11/30",
         state: "End",
@@ -93,7 +93,7 @@ let theEvents = [
     },
     {
         title: "Anime Town",
-        image: require("./images/event2.jfif"),
+        image: require("./images/event2.jpg"),
         discription: "Lorem ipsum dolor sit, amet porro officia dicta in provident, quaerat, nam eius nulla. Ullam, vero commodi?",
         date: "2018/9/01",
         state: "End",
@@ -105,7 +105,7 @@ let theEvents = [
     },
     {
         title: "Anime Expo",
-        image: require("./images/event4.jfif"),
+        image: require("./images/event4.jpg"),
         discription: "Lorem ipsum dolor sit, amet porro officia dicta in provident, quaerat, nam eius nulla. Ullam, vero commodi?",
         date: "2017/6/18",
         state: "End",
@@ -117,7 +117,7 @@ let theEvents = [
     },
     {
         title: "Anime Town",
-        image: require("./images/event5.jfif"),
+        image: require("./images/event5.jpg"),
         discription: "Lorem ipsum dolor sit, amet porro officia dicta in provident, quaerat, nam eius nulla. Ullam, vero commodi?",
         date: "2017/1/08",
         state: "End",

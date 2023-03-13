@@ -18,7 +18,7 @@ const LatestVideos = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(getLatestVideos());
+        // dispatch(getLatestVideos());
     }, [])
 
     let theVideos = [<LoadingBar key="loadingBar" massege="Fetching Videos Data" />]
@@ -62,7 +62,7 @@ const LatestVideos = () => {
         <>
             <div className="bg-color1">
                 <TitleSection title="latest Videos" brief="latest Videos Uploaded On Ai Show Channel" />
-                <div id="latestVideos">
+                <div id="latestVideos" className="p-3">
                     {
                         latastVideosData === false ?
                             <ErrorMassege massege="Fetching Videos Data failed" />
@@ -73,20 +73,6 @@ const LatestVideos = () => {
             </div>
         </>
     )
-    // return (
-    //     <>
-    //         <TitleSection title="latest Videos" brief="latest Videos Uploaded On Ai Show Channel" />
-    //         <div id="latestVideos position-relative bg-color1">
-    //             <div className="loadingMassege d-flex align-items-center justify-content-center flex-column gap-2"
-    //                 onLoad={appearRejictedMassege()}>
-    //                 <div className="loadingBar"><span className="animate"></span></div>
-    //                 <p className="fw-bold">
-    //                     Fetching Videos Data
-    //                 </p>
-    //             </div>
-    //         </div>
-    //     </>
-    // )
 }
 
 export default LatestVideos;

@@ -97,7 +97,7 @@ function durationVideo(theTime) {
         return t.slice(0, -1).length < 2? "0" + t : t
     });
     const struct = ["00", "00", "00"];
-    finallTime.map((time) => {
+    finallTime.forEach((time) => {
         if (time.endsWith("H")) {
             struct[0] = time.slice(0, -1);
         } 
