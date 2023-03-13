@@ -1,5 +1,6 @@
 import "./css/SocialBar.css";
 
+
 function SocialBar() {
     return (
         <div className="socialBar bg-main-color">
@@ -23,7 +24,7 @@ function SocialBar() {
                     </a>
                     <a target="_blank" rel="noreferrer" href="https://instagram.com/ai_showoo?igshid=YmMyMTA2M2Y=">
                         <i className="fa-brands fa-instagram"></i>
-                        
+
                     </a>
                     <a target="_blank" rel="noreferrer" href="https://twitter.com/ai_showoo?s=21&t=xog5PN7FHmxkO1bk7WO7fw">
                         <i className="fa-brands fa-twitter"></i>

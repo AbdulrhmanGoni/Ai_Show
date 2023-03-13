@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 import EventPage from './components/EventPage';
 
-import "./all.min.css";
 import "./Ai_Show.css";
 
 const router = createBrowserRouter([
