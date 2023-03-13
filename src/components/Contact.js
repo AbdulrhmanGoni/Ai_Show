@@ -8,7 +8,7 @@ function Contact() {
 
     return (
         <div id="contact" className="bg-color1">
-            <TitleSection title="Contact Them" brief="For Contacting Or Adverties"/>
+            <TitleSection title="Contact" brief="For Contacting Or Adverties"/>
             <EmailForm />
         </div>
     )
