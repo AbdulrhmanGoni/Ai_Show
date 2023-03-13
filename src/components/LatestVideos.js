@@ -3,8 +3,8 @@ import "./css/animation/loadingBar.css";
 import TitleSection from "./TitleSection";
 import ErrorMassege from "./ErrorMassege";
 import LoadingBar from "./LoadingBar";
-import { useEffect, useState } from "react";
-import { getLatestVideos, refresh } from "../data_center/latestVideos-slice";
+import { useEffect } from "react";
+import { getLatestVideos } from "../data_center/latestVideos-slice";
 import { useSelector, useDispatch } from "react-redux";
 import { Date_timeAgo, durationVideo, numsDecorator } from "../goniFunctions.js";
 
@@ -18,7 +18,7 @@ const LatestVideos = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        // dispatch(getLatestVideos());
+        dispatch(getLatestVideos());
     }, [])
 
     let theVideos = [<LoadingBar key="loadingBar" massege="Fetching Videos Data" />]
@@ -62,10 +62,10 @@ const LatestVideos = () => {
         <>
             <div className="bg-color1">
                 <TitleSection title="latest Videos" brief="latest Videos Uploaded On Ai Show Channel" />
-                <div id="latestVideos" className="p-3">
+                <div id="latestVideos" className="">
                     {
                         latastVideosData === false ?
-                            <ErrorMassege massege="Fetching Videos Data failed" />
+                            <ErrorMassege massege="Fetching Videos Data failed" dispatch={dispatch} do={getLatestVideos} />
                             :
                             theVideos
                     }

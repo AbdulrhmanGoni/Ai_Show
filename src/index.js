@@ -4,9 +4,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
+import "./Ai_Show.css";
 import EventPage from './components/EventPage';
 
-import "./Ai_Show.css";
 
 const router = createBrowserRouter([
   {

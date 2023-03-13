@@ -2,8 +2,8 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 const channelId = 'UCYwpozNeo2tcmb0sZVb1X-A'
-const apiKey = 'AIzaSyA_nZ30x1kOjflxf89cp37Mcy3P9D1ZX-Y'
-// const apiKey = 'AIzaSyD3YSQEh1FXgNMwERw6osRXjVzyjx2_Ob4'
+// const apiKey = 'AIzaSyA_nZ30x1kOjflxf89cp37Mcy3P9D1ZX-Y'
+const apiKey = 'AIzaSyD3YSQEh1FXgNMwERw6osRXjVzyjx2_Ob4'
 
 
 

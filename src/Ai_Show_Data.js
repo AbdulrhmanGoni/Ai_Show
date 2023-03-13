@@ -4,7 +4,6 @@ let homePageBgs = [
     require("./images/Ai-Show-Team-1.jpg"),
     require("./images/Ai-Show-Team-2.png"),
     require("./images/Ai-Show-Team-3.jpg")
-
 ]
 
 let theContent = {

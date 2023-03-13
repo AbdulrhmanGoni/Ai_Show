@@ -1,5 +1,3 @@
-import Separators from "./Separators";
-
 
 function CardImTiTxLtr(props) {
     return (

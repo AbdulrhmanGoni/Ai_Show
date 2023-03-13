@@ -53,7 +53,8 @@ export const EmailForm = () => {
                 <input className="p-2 fw-bold text-white bg-sub-color rounded-3" style={{ width: "fit-content", alignSelf: "end" }} id="submitBtn" type="submit" value="Send" />
             </div>
             <div className="d-flex flex-column justify-content-center gap-3 bg-main-color p-4" style={sectionsStyles}>
-                <div className="p-2 bxSh bg-color1 text-color2 rounded-2 borderTrickSub fw-bold"><i className="main-color me-2 fa-solid fa-phone"></i> 966+550564120</div>
+                <h4 className="sub-color fw-bold">For Contact With Them</h4>
+                <div className="p-2 bxSh bg-color1 text-color2 rounded-2 borderTrickSub fw-bold"><i className="main-color me-2 fa-brands fa-whatsapp"></i> 966+550564120</div>
                 <div className="p-2 bxSh bg-color1 text-color2 rounded-2 borderTrickSub fw-bold"><i className="main-color me-2 fa-solid fa-envelope"></i> aishowteam@gmail.com</div>
                 <div className="p-2 bxSh bg-color1 text-color2 rounded-2 borderTrickSub fw-bold"><i className="main-color me-2 fa-solid fa-location-dot"></i> Saudi Arabia, Al-Ahsa</div>
                 <img className="w-100" src={require("../images/emailBG.png")} alt="bg" />
