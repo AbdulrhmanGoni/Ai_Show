@@ -1,7 +1,5 @@
 import "./css/MembersSlider.css";
-import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import toggleClasses from "./toggleClasses";
 import Separators from "./Separators";
 
 const MembersSlider = (props) => {
@@ -89,7 +87,7 @@ const MembersSlider = (props) => {
                 </div>
             </div>
             <Separators.Separator1 className="Decorsvg position-absolute start-0 bottom-0" />
-            <Separators.Separator4 className="Decorsvg2 position-absolute start-0 top-0" />
+            <Separators.Separator5 className="Decorsvg2 position-absolute start-0 top-0" />
         </div>
         // </div>
     )
