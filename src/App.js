@@ -33,7 +33,7 @@ function App() {
         <Subscribe />
 
         <TheirStory
-          img={theirStory.images[0]}
+          img={theirStory.images}
           title={theirStory.title}
           theStory={theirStory.theStory}
           successes={theirStory.successes}
