@@ -2,8 +2,7 @@ import "./css/SocialBar.css";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faInstagram, faSnapchat, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
-// const element = <FontAwesomeIcon icon={faInstagram} />
-// console.log(element)
+// const element = <FontAwesomeIcon icon={faTwitter} />
 
 function SocialBar() {
     return (
@@ -22,7 +21,6 @@ function SocialBar() {
                 <div className="d-flex gap-3">
                     <a target="_blank" rel="noreferrer" href="https://t.me/aishowo">
                         <i className="fa-brands fa-telegram"></i>
-                        {/* {element} */}
                     </a>
                     <a target="_blank" rel="noreferrer" href="https://youtube.com/@AiSHOWoo">
                         <i className="fa-brands fa-youtube"></i>

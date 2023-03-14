@@ -187,7 +187,6 @@ let teamMembers = [
             twitter: "https://twitter.com/mj_alamer?s=21",
             instagram: "https://instagram.com/mj_alamer?utm_medium=copy_link",
             snapchat: "https://www.snapchat.com/add/majed_alamer",
-
             tikTok: "https://vm.tiktok.com/ZSeGayHS7/",
 
         }
@@ -214,7 +213,6 @@ let teamMembers = [
             twitter: "https://twitter.com/hema_y_a?t=ZJtI0ZLuPqwbOQhhUs5Wmw&s=09",
             instagram: "https://instagram.com/hema_y_a?r=nametag",
             snapchat: "https://www.snapchat.com/add/utc2015?share_id=MkIwNTY5&locale=ar_SA@calendar=gregorian",
-
             tikTok: "http://www.tiktok.com/@hema_y_a",
 
         }
@@ -238,11 +236,10 @@ let teamMembers = [
             character: "Izen Suski",
         },
         socialMedia: {
-            twitter: "",
-            instagram: "",
-            snapchat: "",
-
-            tikTok: "",
+            twitter: "https://twitter.com/x3j94?t=PmOWTJ5PK7nhG5VuTIsWNA&s=09",
+            instagram: "https://instagram.com/x3j94?igshid=YmMyMTA2M2Y=",
+            snapchat: "https://www.snapchat.com/add/x3j94?share_id=HJz5lk_AWQI&locale=en-GB",
+            tikTok: "https://www.tiktok.com/@x3j94?_t=8ZZD3DWodQ9&_r=1",
 
         }
     },
@@ -265,11 +262,10 @@ let teamMembers = [
             character: "Madara Utchiha",
         },
         socialMedia: {
-            twitter: "",
-            instagram: "",
-            snapchat: "",
-
-            tikTok: "",
+            twitter: "https://twitter.com/d7mmey?lang=en",
+            instagram: "https://www.instagram.com/d7mmeyy/?hl=en",
+            snapchat: "https://www.snapchat.com/add/d7oomx10?share_id=QzBERjc3&locale=en_SA@calendar=gregorian",
+            tikTok: "https://www.tiktok.com/@d7mmey",
 
         }
     },
@@ -292,11 +288,10 @@ let teamMembers = [
             character: "Naruro",
         },
         socialMedia: {
-            twitter: "",
-            instagram: "",
-            snapchat: "",
-
-            tikTok: "",
+            twitter: "https://twitter.com/rsh4485",
+            instagram: "https://www.instagram.com/rsh44485",
+            snapchat: "https://www.snapchat.com/add/rashedibr?share_id=RDFGRkQ0&locale=en_SA@calendar=gregorian",
+            tikTok: "https://vm.tiktok.com/ZSdeQnK6H/",
 
         }
     },
@@ -319,11 +314,10 @@ let teamMembers = [
             character: "Yosako Kudo",
         },
         socialMedia: {
-            twitter: "",
-            instagram: "",
-            snapchat: "",
-
-            tikTok: "",
+            twitter: "https://mobile.twitter.com/ahmedalyamani0?utm_medium=social&utm_source=heylink.me",
+            instagram: "https://www.instagram.com/e7_1/?utm_medium=social&utm_source=heylink.me",
+            snapchat: "https://www.snapchat.com/add/e7_1?utm_medium=social&utm_source=heylink.me",
+            tikTok: "https://www.tiktok.com/@e7_01?utm_medium=social&utm_source=heylink.me",
 
         }
     },
@@ -346,11 +340,10 @@ let teamMembers = [
             character: "Asta",
         },
         socialMedia: {
-            twitter: "",
-            instagram: "",
-            snapchat: "",
-
-            tikTok: "",
+            twitter: "https://twitter.com/Moha__turbo?t=PfnbXyM2tsyCSFr3y_-9FQ&s=09",
+            instagram: "https://www.instagram.com/moha__turbo/",
+            snapchat: "https://www.snapchat.com/add/turb0show?share_id=zgRmd4WBaA4&locale=ar-AE",
+            tikTok: "https://vm.tiktok.com/ZSde7xdKs/",
 
         }
     },
@@ -376,7 +369,6 @@ let teamMembers = [
             twitter: "",
             instagram: "",
             snapchat: "",
-
             tikTok: "",
 
         }
@@ -400,20 +392,19 @@ let teamMembers = [
             character: "Tetch",
         },
         socialMedia: {
-            twitter: "",
-            instagram: "",
-            snapchat: "",
-
-            tikTok: "",
+            twitter: "https://twitter.com/Z3Z3_11?t=FyqzswXkC9ZxMZGl8cqk5w&s=09",
+            instagram: "https://instagram.com/z3z31_1?utm_medium=copy_link",
+            snapchat: "https://www.snapchat.com/add/z3tor132?share_id=ucM0UXgPwrw&locale=en-US",
+            tikTok: "https://vm.tiktok.com/ZSdefLWy9/",
 
         }
     },
     {
         name: {
-            firstName: "Suaod",
-            lastName: "Unknown",
-            fullName: "Suaod Unknown",
-            title: "Suaod"
+            firstName: "Saud",
+            lastName: "Alomar",
+            fullName: "Suaod Alomar",
+            title: "Saud"
         },
         images: ["https://live.staticflickr.com/65535/52744827836_735275c887_o.png", "https://live.staticflickr.com/65535/52744827836_735275c887_o.png"],
         position: ["Presenter"],
@@ -427,10 +418,9 @@ let teamMembers = [
             character: "Unknown",
         },
         socialMedia: {
-            twitter: "",
-            instagram: "",
+            twitter: "https://twitter.com/16Alomar",
+            instagram: "https://instagram.com/saud_alomar1997?r=nametag",
             snapchat: "",
-
             tikTok: "",
 
         }
@@ -454,11 +444,10 @@ let teamMembers = [
             character: "Izen",
         },
         socialMedia: {
-            twitter: "",
-            instagram: "",
-            snapchat: "",
-
-            tikTok: "",
+            twitter: "https://twitter.com/herodevil77?lang=ar",
+            instagram: "https://instagram.com/herodevil77?r=nametag",
+            snapchat: "https://t.snapchat.com/BJAkCb4a",
+            tikTok: "https://vm.tiktok.com/ZSdduS4JS/",
 
         }
     },
@@ -484,7 +473,6 @@ let teamMembers = [
             twitter: "",
             instagram: "",
             snapchat: "",
-
             tikTok: "",
 
         }
