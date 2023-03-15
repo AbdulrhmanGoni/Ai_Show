@@ -2,6 +2,7 @@ import "./css/EmailForm.css";
 import ReactDOM from "react-dom/client"
 import { useSelector } from "react-redux";
 import PopUpMassege from "./PopUpMassege";
+import { ReactComponent as Ad } from "../svgImages/badge-ad.svg";
 
 import Logo from "./Logo";
 
@@ -41,7 +42,7 @@ export const EmailForm = () => {
     }
 
     return (
-        <form id="emailForm" className="d-flex flex-column flex-lg-row w-100 container" onSubmit={(event) => {event.preventDefault(); dealWithSubmit()}}>
+        <form id="emailForm" className="d-flex flex-column-reverse flex-lg-row w-100 container" onSubmit={(event) => {event.preventDefault(); dealWithSubmit()}}>
             <div className="d-flex flex-column justify-content-center bg-color2 gap-4" style={sectionsStyles}>
                 <h4 className="fw-bold text-color2 m-0" >Mail
                     {<span className="main-color ps-2 pe-2">{channelData !== null ? channelData.snippet.title : null}</span>}
@@ -53,9 +54,10 @@ export const EmailForm = () => {
                 <input className="p-2 fw-bold text-white bg-sub-color rounded-3" style={{ width: "fit-content", alignSelf: "end" }} id="submitBtn" type="submit" value="Send" />
             </div>
             <div className="d-flex flex-column justify-content-center gap-3 bg-main-color p-4" style={sectionsStyles}>
-                <h4 className="sub-color fw-bold">For Contact With Them</h4>
+                <h4 className="sub-color fw-bold">Contact Information</h4>
                 <div className="p-2 bxSh bg-color1 text-color2 rounded-2 borderTrickSub fw-bold"><i className="main-color me-2 fa-brands fa-whatsapp"></i> 966+550564120</div>
                 <div className="p-2 bxSh bg-color1 text-color2 rounded-2 borderTrickSub fw-bold"><i className="main-color me-2 fa-solid fa-envelope"></i> aishowteam@gmail.com</div>
+                <div className="p-2 bxSh bg-color1 text-color2 rounded-2 borderTrickSub fw-bold"><Ad className="main-color me-2" style={{width: "19px", height: "19px"}}></Ad> AISHOW@fpecocsa.com</div>
                 <div className="p-2 bxSh bg-color1 text-color2 rounded-2 borderTrickSub fw-bold"><i className="main-color me-2 fa-solid fa-location-dot"></i> Saudi Arabia, Al-Ahsa</div>
                 <img className="w-100" src={require("../images/emailBG.png")} alt="bg" />
             </div>

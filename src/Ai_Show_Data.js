@@ -3,8 +3,6 @@ let homePageBgs = [
     "https://live.staticflickr.com/65535/52745428283_e64366616c_o.png",
 ]
 
-
-
 let theContent = {
     AnimeLiveStream: {
         title: "Anime Live Stream",
@@ -470,9 +468,9 @@ let teamMembers = [
             character: "unknown",
         },
         socialMedia: {
-            twitter: "",
-            instagram: "",
-            snapchat: "",
+            twitter: "https://twitter.com/YasirAlbarrak",
+            instagram: "https://www.instagram.com/yasir_albarrak/",
+            snapchat: "https://www.snapchat.com/add/yasiralbarrak?sender_web_id=f2c40329-4dee-42af-809b-192983304b9d&device_type=android&is_copy_url=true",
             tikTok: "",
 
         }
