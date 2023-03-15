@@ -14,6 +14,7 @@ import Events from './components/Events.js';
 import LatestVideos from './components/LatestVideos.js';
 import Members from './components/Members.js';
 import Contact from './components/Contact.js';
+import Footer from './components/Footer.js';
 
 function App() {
 
@@ -57,6 +58,8 @@ function App() {
         <Events theEvents={theEvents} />
 
         <Contact />
+
+        <Footer />
 
       </Provider>
     </>

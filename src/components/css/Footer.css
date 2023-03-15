@@ -1,0 +1,44 @@
+
+.contactInfo div i {
+    font-size: 30px;
+}
+
+.contactInfo div,
+.media-footer a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--text-color2);
+    padding: 5px;
+    border-radius: 5px;
+    transition: .3s;
+    gap: 10px;
+}
+
+.media-footer a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    transition: .3s;
+    background-color: var(--sub-color);
+    
+}
+.contactInfo div i {
+    transition: .3s;
+    color: var(--text-color2);
+}
+.contactInfo div:hover i {
+    color: var(--main-color) !important;
+}
+.contactInfo div:hover,
+.media-footer a:hover {
+    color: var(--main-color) !important;
+    background-color: #9a69002e;
+}
+.media-footer a:hover i {
+    background-color: var(--main-color);
+}

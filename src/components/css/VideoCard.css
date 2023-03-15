@@ -1,0 +1,4 @@
+.video-title:hover .fullText {
+    opacity: 1 !important;
+    z-index: 10 !important;
+}

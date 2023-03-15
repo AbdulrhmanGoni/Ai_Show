@@ -63,7 +63,7 @@ function NavBar() {
                         <ul className="d-flex flex-column bg-color2 position-absolute bxSh">
                             <li><a onClick={() => { scrollToSection("introdution") }} href="/">Content</a></li>
                             <li><a onClick={() => { scrollToSection("subscripe") }} href="/">Subscripe</a></li>
-                            <li><a onClick={() => { scrollToSection("introdution") }} href="/">Videos</a></li>
+                            <li><a onClick={() => { scrollToSection("latestVideos") }} href="/">Videos</a></li>
                         </ul>
                     </div>
 

@@ -50,6 +50,15 @@ let theirStory = {
     foundedDate: "Jan / 2012",
 }
 
+let channelLinks = {
+    youtube: "https://www.youtube.com/@AiSHOWoo",
+    twitter: "https://twitter.com/ai_showoo?s=21&t=xog5PN7FHmxkO1bk7WO7fw",
+    instagram: "https://instagram.com/ai_showoo?igshid=YmMyMTA2M2Y=",
+    twitch: "https://twitch.tv/aishowoo",
+    telegram: "https://t.me/aishowo",
+    store: "https://www.aishow.sa/"
+}
+
 let FounderData = {
     name: "Mohammed Al-Naami",
     image: ["https://live.staticflickr.com/65535/52745243530_59bce12e6b_o.jpg", "https://live.staticflickr.com/65535/52745297545_6e4806b0f6_o.jpg"],
@@ -101,7 +110,7 @@ let theEvents = [
     },
     {
         title: "Anime Town",
-        image:  "https://live.staticflickr.com/65535/52745433503_a27d0260b6_o.jpg",
+        image: "https://live.staticflickr.com/65535/52745433503_a27d0260b6_o.jpg",
         discription: "Lorem ipsum dolor sit, amet porro officia dicta in provident, quaerat, nam eius nulla. Ullam, vero commodi?",
         date: "2018/9/01",
         state: "End",
@@ -113,7 +122,7 @@ let theEvents = [
     },
     {
         title: "Anime Expo",
-        image:  "https://live.staticflickr.com/65535/52745355320_e88981a75e_o.jpg",
+        image: "https://live.staticflickr.com/65535/52745355320_e88981a75e_o.jpg",
         discription: "Lorem ipsum dolor sit, amet porro officia dicta in provident, quaerat, nam eius nulla. Ullam, vero commodi?",
         date: "2017/6/18",
         state: "End",
@@ -125,7 +134,7 @@ let theEvents = [
     },
     {
         title: "Anime Town",
-        image:  "https://live.staticflickr.com/65535/52744939211_650558d713_o.jpg",
+        image: "https://live.staticflickr.com/65535/52744939211_650558d713_o.jpg",
         discription: "Lorem ipsum dolor sit, amet porro officia dicta in provident, quaerat, nam eius nulla. Ullam, vero commodi?",
         date: "2017/1/08",
         state: "End",
@@ -479,7 +488,7 @@ let teamMembers = [
 
 
 
-export { homePageBgs, theContent, theirStory, FounderData, theEvents, teamMembers };
+export { homePageBgs, channelLinks, theContent, theirStory, FounderData, theEvents, teamMembers };
 
 
 
