@@ -1,5 +1,4 @@
 import TitleSection from "./TitleSection.js";
-import { Row } from "./gridSystemBootstrap";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { numsDecorator, textLimitation }  from "../goniFunctions";
@@ -106,7 +105,7 @@ function Events(props) {
         <div id="events" className="events">
             <TitleSection title="Events" brief="the events they participte in"/>
             <div className="container d-grid">
-            <Row classes="gap-5 gap-md-0">
+            <div className="row gap-5 gap-md-0">
                 <div className="latestEvents col-md-7 d-flex flex-column gap-4">
                     {latstEvents}
                 </div>
@@ -115,7 +114,7 @@ function Events(props) {
                     {previousEvents}
                     
                 </div>
-            </Row>
+            </div>
             </div>
     </div>
     )
