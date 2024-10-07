@@ -4,7 +4,8 @@ import {
   createBrowserRouter,
   RouterProvider,
   Route,
-  createRoutesFromElements
+  createRoutesFromElements,
+  Outlet
 } from "react-router-dom";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
@@ -14,7 +15,8 @@ import EventPage from './components/EventPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App />}>
+    <Route path="/" element={<><Outlet /></>}>
+      <Route index element={<App />} />
       <Route path="/eventPage/:id" element={<EventPage />} />
     </Route>
   )
