@@ -35,8 +35,8 @@ const LatestVideos = () => {
                     views={numsDecorator(video.statistics.viewCount, true)}
                     likes={numsDecorator(video.statistics.likeCount, true)}
                     comments={numsDecorator(video.statistics.commentCount, true)}
-                    channelLogo={channelData.snippet.thumbnails.high.url}
-                    channelName={video.snippet.channelTitle} 
+                    channelLogo={channelData?.snippet.thumbnails.high.url}
+                    channelName={video.snippet.channelTitle}
                 />
             )
         })
@@ -49,7 +49,11 @@ const LatestVideos = () => {
                 <div id="latestVideos" className="">
                     {
                         latastVideosData === false ?
-                            <ErrorMassege massege="Fetching Videos Data failed" dispatch={dispatch} do={getLatestVideos} />
+                            <ErrorMassege
+                                massege="Fetching Videos Data failed"
+                                dispatch={dispatch}
+                                do={getLatestVideos}
+                            />
                             :
                             theVideos
                     }

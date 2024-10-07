@@ -24,7 +24,7 @@ function Footer() {
                     <div className="logo-title d-flex flex-row">
                         {
                             channelData ?
-                                <a href={`https://www.youtube.com/${channelData.snippet.customUrl}`} target={"_blank"} rel="noreferrer">
+                                <a href={`https://www.youtube.com/${channelData?.snippet?.customUrl}`} target={"_blank"} rel="noreferrer">
                                     <Logo img={channelData.snippet.thumbnails.high.url} alt="seeee" />
                                 </a>
                                 : <SpenerCircle width="30px" />
