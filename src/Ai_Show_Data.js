@@ -8,37 +8,37 @@ let theContent = {
         title: "Anime Live Stream",
         contentImg: "https://live.staticflickr.com/65535/52736452725_5b2d3dea0c_o.png",
         contentDiscription: "the weekly Live Stream that comes every thuesday with Ai Show Crew member",
-        classes: "col-md-6 col-lg-4 p-2"
+        
     },
     MangaLiveStream: {
         title: "Manga Live Stream",
         contentImg: "https://live.staticflickr.com/65535/52735512022_f0d65218d6_o.png",
         contentDiscription: "the weekly Live Stream that comes every monday with Ai Show Crew member",
-        classes: "col-md-6 col-lg-4 p-2"
+        
     },
     kingdom: {
         title: "Kingdom",
         contentImg: "https://live.staticflickr.com/65535/52736035651_c9d6a48d9b_o.png",
         contentDiscription: "kingdom",
-        classes: "col-md-6 col-lg-4 p-2"
+        
     },
     DetectiveConan: {
         title: "Detective Conan",
         contentImg: "https://live.staticflickr.com/65535/52736450840_eb9cdd70eb_o.png",
         contentDiscription: "my only GOAT is Detective Conan and never comes who best them",
-        classes: "col-md-6 col-lg-4 p-2"
+        
     },
     VetoOnePiece: {
         title: "Veto One Piece",
         contentImg: "https://live.staticflickr.com/65535/52736283624_d0ab90a6bc_o.png",
         contentDiscription: "Veto One Piece",
-        classes: "col-md-6 col-lg-4 p-2"
+        
     },
     VetoDiverified: {
         title: "Veto Diverified",
         contentImg: "https://live.staticflickr.com/65535/52736451960_1e9ee632e5_o.png",
         contentDiscription: "Veto Diverified",
-        classes: "col-md-6 col-lg-4 p-2"
+        
     },
 }
 

@@ -1,14 +1,13 @@
 import "./css/EventPage.css";
 import { Link, useParams } from "react-router-dom";
 import { BackBtn } from "./buttons";
-import { Row } from "./gridSystemBootstrap";
 import { theEvents } from "../Ai_Show_Data";
 import { numsDecorator } from "../goniFunctions";
 
 const TheEvents = (props) => {
     return (
         <div className="container d-grid">
-            <Row classes="gap-4 gap-lg-0">
+            <div className="row gap-4 gap-lg-0">
                 <div className="anEvent col-lg-7 p-0 d-flex flex-column bg-color1 bxSh">
                     <div className="imgEvents position-relative mb-3">
                         <img className="w-100" src={props.theEvents.image} alt="excerpts" />
@@ -49,7 +48,7 @@ const TheEvents = (props) => {
                         </div>
                     </div>
                 </div>
-            </Row>
+            </div>
         </div>
     )
 }

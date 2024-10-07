@@ -1,5 +1,4 @@
 import TitleSection from "./TitleSection";
-import {Row} from "./gridSystemBootstrap";
 import "./css/TheirStory.css"
 
 function TheirStory(props) {
@@ -12,7 +11,7 @@ function TheirStory(props) {
         <div id="theirStory" className="theirStory">
         <TitleSection title="their Story" brief="the story of foundtion ai show crew"/>
         <div className="container d-grid">
-            <Row classes="gap-lg-0 gap-3" >
+            <div className="roe gap-lg-0 gap-3" >
                 <div className="imgAiShow radius-2 col-lg-6" style={styles}>
                     <img className="w-100 d-lg-none radius-2" src={props.img} alt={props.alt? props.alt:"img"}/>
                 </div>
@@ -37,7 +36,7 @@ function TheirStory(props) {
                         </div>
                     </div>
                 </div>
-            </Row>
+            </div>
         </div>
         </div>
 
