@@ -1,9 +1,5 @@
 import "./css/SocialBar.css";
 import { channelLinks as links } from "../Ai_Show_Data";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faInstagram, faSnapchat, faTwitter } from '@fortawesome/free-brands-svg-icons'
-
-// const element = <FontAwesomeIcon icon={faTwitter} />
 
 function SocialBar() {
     return (

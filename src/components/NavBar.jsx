@@ -3,7 +3,7 @@ import "./css/animation/animationSpenerCircle.css";
 import toggleClasses from "./toggleClasses";
 import SwitchTheme from "./SwitchTheme";
 import LoadingBar from "./LoadingBar";
-import Logo from "./Logo.js";
+import Logo from "./Logo";
 import { SpenerCircle } from "./speners";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";

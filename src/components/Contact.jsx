@@ -1,5 +1,5 @@
 import "./css/Contact.css";
-import { EmailForm } from "./EmailForm.js"
+import { EmailForm } from "./EmailForm"
 import TitleSection from "./TitleSection";
 
 
