@@ -2,8 +2,8 @@ import { createContext, useEffect, useState } from "react";
 
 export const basicDataOfChannel = createContext("");
 
-const apiKey = process.env.REACT_APP_API_KEY;
-const channelId = process.env.REACT_APP_CHANNELID;
+const apiKey = import.meta.env.VITE_API_KEY;
+const channelId = import.meta.env.VITE_CHANNELID;
 
 const DataOfChannel = (props) => {
 

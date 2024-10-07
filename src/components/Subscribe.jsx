@@ -1,5 +1,5 @@
 import Logo from "./Logo";
-import { numsDecorator } from "../goniFunctions.js";
+import { numsDecorator } from "../goniFunctions";
 import "./css/Subscribe.css";
 import { useSelector } from "react-redux";
 
@@ -12,8 +12,8 @@ function Subscribe() {
         return (
             <div id="subscripe" className="subscripe position-relative bg-color1 overflow-hidden">
                 <picture>
-                    <source media="(min-width: 768px)" srcSet={require("../images/channels4_banner-disktop.jpg")}/>
-                    <source media="(max-width: 767px)" srcSet={require("../images/channels4_banner-mobile.jpg")}/>
+                    <source media="(min-width: 768px)" srcSet="/channels4_banner-disktop.jpg"/>
+                    <source media="(max-width: 767px)" srcSet="/channels4_banner-mobile.jpg"/>
                     <img className="w-100" src="" alt="seee"/>
                 </picture>
                 <div className="decoratorDiv d-flex flex-column-reverse flex-md-row justify-content-around align-items-center pb-5 pt-5 gap-md-5 position-relative container">

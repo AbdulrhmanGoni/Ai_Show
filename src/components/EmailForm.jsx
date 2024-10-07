@@ -52,7 +52,7 @@ export const EmailForm = () => {
                 <input className="p-2 fw-bold text-white bg-sub-color rounded-3" style={{ width: "fit-content", alignSelf: "end" }} id="submitBtn" type="submit" value="Send" />
             </div>
             <div className="d-flex flex-column justify-content-center gap-3 bg-main-color p-4 sec-right" style={sectionsStyles}>
-                <img className="w-100" src={require("../images/emailBG.png")} alt="bg" />
+                <img className="w-100" src="/emailBG.png" alt="bg" />
             </div>
         </form>
     )

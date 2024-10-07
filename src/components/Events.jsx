@@ -1,4 +1,4 @@
-import TitleSection from "./TitleSection.js";
+import TitleSection from "./TitleSection";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { numsDecorator, textLimitation }  from "../goniFunctions";

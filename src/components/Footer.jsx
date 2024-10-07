@@ -1,7 +1,6 @@
 import { useSelector } from "react-redux";
 import { channelLinks as links, teamMembers } from "../Ai_Show_Data";
 import "./css/Footer.css"
-import { ReactComponent as Ad } from "../svgImages/badge-ad.svg";
 import Logo from "./Logo";
 import { SpenerCircle } from "./speners";
 import LoadingBar from "./LoadingBar";
@@ -38,7 +37,7 @@ function Footer() {
                 <div className="col-lg-4 col-sm-6 p-4 contactInfo">
                     <div className="p-2 text-color1 fw-bold"><i className="me-2 fa-brands fa-whatsapp"></i> 966+550564120</div>
                     <div className="p-2 text-color1 fw-bold"><i className="me-2 fa-solid fa-envelope"></i> aishowteam@gmail.com</div>
-                    <div className="p-2 text-color1 fw-bold"><Ad className="me-2" style={{ minWidth: "30px", minHeight: "30px" }}></Ad> AISHOW@fpecocsa.com</div>
+                    <div className="p-2 text-color1 fw-bold"><img src="/badge-ad.svg" className="me-2" style={{ minWidth: "30px", minHeight: "30px" }}/> AISHOW@fpecocsa.com</div>
                     <div className="p-2 text-color1 fw-bold"><i className="me-2 fa-solid fa-location-dot"></i> Saudi Arabia, Al-Ahsa</div>
                 </div>
                 <div className="col-lg-4 col-sm-6 p-4">

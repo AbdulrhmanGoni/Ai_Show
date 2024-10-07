@@ -7,7 +7,7 @@ import LoadingBar from "./LoadingBar";
 import { useEffect } from "react";
 import { getLatestVideos } from "../data_center/latestVideos-slice";
 import { useSelector, useDispatch } from "react-redux";
-import { getDate, timeAgo, durationVideo, numsDecorator } from "../goniFunctions.js";
+import { getDate, timeAgo, durationVideo, numsDecorator } from "../goniFunctions";
 
 
 

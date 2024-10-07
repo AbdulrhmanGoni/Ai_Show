@@ -1,6 +1,6 @@
 import "./css/TheFounder.css";
 import TitleSection from "./TitleSection";
-import Logo from "./Logo.js";
+import Logo from "./Logo";
 import {  useSelector } from "react-redux";
 
 

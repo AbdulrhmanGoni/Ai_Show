@@ -1,8 +1,8 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const apiKey = process.env.REACT_APP_API_KEY;
-const channelId = process.env.REACT_APP_CHANNELID;
+const apiKey = import.meta.env.VITE_API_KEY;
+const channelId = import.meta.env.VITE_CHANNELID;
 
 const getLatestVideosData = async (videoId) => {
     const baseUrl = "https://www.googleapis.com/youtube/v3/videos?";
