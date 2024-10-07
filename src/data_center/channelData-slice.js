@@ -3,8 +3,8 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 export const fetchChannelData = createAsyncThunk(
     "fetchChannelData",
     async () => {
-        const apiKey = 'AIzaSyA_nZ30x1kOjflxf89cp37Mcy3P9D1ZX-Y';
-        const channelId = 'UCYwpozNeo2tcmb0sZVb1X-A';
+        const apiKey = process.env.REACT_APP_API_KEY;
+        const channelId = process.env.REACT_APP_CHANNELID;
 
         const response = await fetch(`https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=${channelId}&key=${apiKey}`)
         const data = await response.json();
@@ -17,10 +17,6 @@ const channelDataSlice = createSlice({
     name: "channelDataSlice",
     reducers: {},
     extraReducers: (builder) => {
-        // builder.addCase(fetchChannelData.pending, (state, action) => {
-        //     console.log("seeeeeeeeeeeeeeeeeee")
-        // });
-        
         builder.addCase(fetchChannelData.fulfilled, (state, action) => {
             return state = action.payload;
         })

@@ -1,11 +1,8 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const channelId = 'UCYwpozNeo2tcmb0sZVb1X-A'
-// const apiKey = 'AIzaSyA_nZ30x1kOjflxf89cp37Mcy3P9D1ZX-Y'
-const apiKey = 'AIzaSyD3YSQEh1FXgNMwERw6osRXjVzyjx2_Ob4'
-
-
+const apiKey = process.env.REACT_APP_API_KEY;
+const channelId = process.env.REACT_APP_CHANNELID;
 
 const getLatestVideosData = async (videoId) => {
     const baseUrl = "https://www.googleapis.com/youtube/v3/videos?";
@@ -17,13 +14,12 @@ const getLatestVideosData = async (videoId) => {
     return latestVideos;
 };
 
-
 export const getLatestVideos = createAsyncThunk("getLatestVideos", async () => {
 
     const baseUrlForIDs = 'https://www.googleapis.com/youtube/v3/search';
     const queryParamsForIDs = `?part=snippet&channelId=${channelId}&order=date&maxResults=5&type=video&key=${apiKey}`;
     const IDs = await axios.get(baseUrlForIDs + queryParamsForIDs).then((videoData) => {
-        const ids = videoData.data.items.map((video) => video.id.videoId );
+        const ids = videoData.data.items.map((video) => video.id.videoId);
         return ids;
     })
 
@@ -37,13 +33,13 @@ const latestVideosData = createSlice({
     name: "latestVideosData",
     reducers: {},
     extraReducers: (builder) => {
-        builder.addCase(getLatestVideos.pending, (state, action) => {
+        builder.addCase(getLatestVideos.pending, (state) => {
             return state = null;
         })
         builder.addCase(getLatestVideos.fulfilled, (state, action) => {
             return state = action.payload;
         })
-        builder.addCase(getLatestVideos.rejected, (state, action) => {
+        builder.addCase(getLatestVideos.rejected, (state) => {
             return state = false;
         })
     }
