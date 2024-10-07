@@ -18,7 +18,7 @@ function activeClassHandling(theArray, activeClass, targetEl) {
 
 function getDate(date) {
     return date.slice(0, 10);
-} 
+}
 
 function timeAgo(theTime) {
     const allDate = new Date().getTime();

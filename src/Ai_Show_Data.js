@@ -8,37 +8,37 @@ let theContent = {
         title: "Anime Live Stream",
         contentImg: "https://live.staticflickr.com/65535/52736452725_5b2d3dea0c_o.png",
         contentDiscription: "the weekly Live Stream that comes every thuesday with Ai Show Crew member",
-        
+
     },
     MangaLiveStream: {
         title: "Manga Live Stream",
         contentImg: "https://live.staticflickr.com/65535/52735512022_f0d65218d6_o.png",
         contentDiscription: "the weekly Live Stream that comes every monday with Ai Show Crew member",
-        
+
     },
     kingdom: {
         title: "Kingdom",
         contentImg: "https://live.staticflickr.com/65535/52736035651_c9d6a48d9b_o.png",
         contentDiscription: "kingdom",
-        
+
     },
     DetectiveConan: {
         title: "Detective Conan",
         contentImg: "https://live.staticflickr.com/65535/52736450840_eb9cdd70eb_o.png",
         contentDiscription: "my only GOAT is Detective Conan and never comes who best them",
-        
+
     },
     VetoOnePiece: {
         title: "Veto One Piece",
         contentImg: "https://live.staticflickr.com/65535/52736283624_d0ab90a6bc_o.png",
         contentDiscription: "Veto One Piece",
-        
+
     },
     VetoDiverified: {
         title: "Veto Diverified",
         contentImg: "https://live.staticflickr.com/65535/52736451960_1e9ee632e5_o.png",
         contentDiscription: "Veto Diverified",
-        
+
     },
 }
 
@@ -489,35 +489,3 @@ let teamMembers = [
 
 
 export { homePageBgs, channelLinks, theContent, theirStory, FounderData, theEvents, teamMembers };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const apiKey = 'AIzaSyA_nZ30x1kOjflxf89cp37Mcy3P9D1ZX-Y';
-// const fetchChannelData = async () => {
-//     const response = await fetch(`https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=${channelId}&key=${apiKey}`);
-//     const data = await response.json();
-//     sessionStorage.setItem("channelData", JSON.stringify(data.items));
-//     return data.items;
-// };
-// fetchChannelData();
-// let channelData = JSON.parse(sessionStorage.getItem("channelData"))[0];
